@@ -247,7 +247,7 @@ def start(update: Update, context: CallbackContext):
                     sql.num_chats()),
                 reply_markup=InlineKeyboardMarkup(
                  [
-                  [InlineKeyboardButton(text="📄 Source", url="https://t.me/GoToHell_xD"), 
+                  [InlineKeyboardButton(text="📄 Source", url="https://github.com/prince-botz/tianabot"), 
                    InlineKeyboardButton(text="🫂 Support", url=f"https://t.me/{SUPPORT_CHAT}")]
                  ]
               ),
@@ -724,7 +724,7 @@ Support
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="📄 𝙎𝙤𝙪𝙧𝙘𝙚", url="t.me/GoToHell_xD"),                 
+                    InlineKeyboardButton(text="📄 𝘾𝙤𝙣𝙩𝙖𝙘𝙩", url="t.me/GoToHell_xD"),                 
                     InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="about_"),
                  ]    
                 ]
